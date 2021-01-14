@@ -30,6 +30,6 @@ hlt              // Halt the cpu
 ```
 
 In order to boot the program in BIOS a boot sector signature must be placed in the end of the file. Therefore, the last two bytes must be 0x55 and 0xaa.
-The rest of the file is zeroed out so that the total size is exactly 512MB which is the size of a boot sector that is loaded into RAM for execution.
+The rest of the file is zeroed out so that the total size is exactly 512 bytes which is the size of a boot sector that is loaded into RAM for execution.
 
 The program should print ```:)``` to the screen and halt.
